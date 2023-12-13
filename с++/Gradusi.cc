@@ -2,11 +2,11 @@
 
 int main() {
     double celsius, fahrenheit;
-    std::cout << "Enter temperature in Celsius: ";
+    std::cout << "Введите температуру в цельсиях: ";
     std::cin >> celsius;
 
     fahrenheit = (celsius * 9/5) + 32;
 
-    std::cout << "Temperature in Fahrenheit: " << fahrenheit << std::endl;
+    std::cout << "Температура в фарингейтах: " << fahrenheit << std::endl;
 
     return 0;
